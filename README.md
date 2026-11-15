@@ -12,7 +12,7 @@ Done in Summer 2022 in the Autonomous Mini-Racecar (Robotics) Program by Learn w
 The labs build up from open-loop driving to full multi-sensor autonomy. Early labs use HSV thresholding and contour analysis on the color camera for line following and cone parking, then adds depth-image processing for safety stops and wall alignment. Later labs use windowed LIDAR queries for obstacle avoidance and right-wall following, ArUco markers for navigation, and IMU data for roll limiting, heading-based maneuvers and a speed limiter that fuses IMU, LIDAR and depth range-rate with a complementary filter. The final programs combine these into time-trial and grand-prix drivers. Every controller follows the same pipeline:
 
 
-``` sensors -> perception (a scalar: distance, pixel column, heading) -> proportional control -> speed + angle ```
+``` sensors -> perception -> proportional control -> speed + angle ```
 
 **Stack: Python, OpenCV, NumPy, Jupyter, RacecarSim (Unity)**
 

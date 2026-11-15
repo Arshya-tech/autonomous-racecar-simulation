@@ -16,8 +16,13 @@ The labs build up from open-loop driving to full multi-sensor autonomy. Early la
 
 **Stack: Python, OpenCV, NumPy, Jupyter, RacecarSim (Unity)**
 
+## Simulation Preview
+
+<img src="autonomous-racecar-simulation/Autonomous_MiniRaceCar_Sim.png" alt="RACECAR in RacecarSim" width="500">
+
+
+## Structure
 ``` 
-Structure
 .
 ├── labs/
 │   ├── lab1/ ... lab5/
